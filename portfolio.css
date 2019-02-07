@@ -1,0 +1,48 @@
+table{
+    border-collapse: collapse;
+    box-align: center;
+    margin: 0 auto;
+}
+
+tr{
+    box-align: center;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+td{
+    padding: 20px;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.img2{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding-left: 90px;
+    margin: 0 auto;
+}
+
+.caption {
+    border: none;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: relative;
+    width: 200px;
+    height: 30px;
+    bottom: 40px;
+    right: 20px;
+    background: rgb(74,170,165);
+    background: rgba(74,170,165, 0.75);
+    color: #ffffff;
+    padding-left: 0px;
+    padding-right: 20px;
+    margin-left: 110px;
+    margin-bottom: 40px;
+ }
+
+ caption:hover {
+    background: rgba(74,170,165, 0.5);
+  }

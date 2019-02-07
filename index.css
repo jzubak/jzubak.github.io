@@ -1,0 +1,181 @@
+/* this is the overarching style sheet to be used as a baseline for all three pages */
+html{
+    height: 100%;
+    margin: 0;   
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-image: url('assets/images/gravel/gravel.png');
+}
+
+.content {
+    min-height: 100%;
+}
+.content-inside {
+    padding: 0;
+    padding-bottom: 50px;
+}
+
+.div1{
+    display: flex;
+    background-color: #ffffff;
+    border-bottom-width: 15px;
+    border-color: #cccccc;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+.headerbox{
+    padding: 20px 100px 20px 100px;
+    width:960px;
+}
+h1 {
+    width : 200px;
+    height: 100%;
+    padding-top: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    font-size : 26px;
+    font-weight: bold;
+    color : #ffffff;
+    text-align: center;
+    background-color: #4aaaa5;
+    float: left;
+    border: 15px;
+    border-color:#cccccc;
+}
+
+.navkeys{
+    float: right;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: rgb(207, 203, 203);
+    text-align: center;
+    padding-right: 10%;
+    margin: 0;
+    padding-top: 3%;
+    }
+
+a:link, a:visited{
+    width: 120px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase; 
+    color: grey;
+    text-decoration: none;
+}
+a:hover{
+    width: 120px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase; 
+    color: rgb(9, 7, 114);
+    text-decoration: none;
+}
+
+a:active{
+    width: 120px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase; 
+    color: rgb(158, 12, 12);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+
+.hr1{
+    height: 2px;
+    width: 100%;
+    margin:0;
+    padding:0;
+    background-color:#cccccc;
+    border: none;
+}
+
+.div2{
+    padding: 0px 100px 0px 100px;
+}
+h2 {
+    font-family:'Georgia', Times, Times New Roman, serif; 
+    font-size : 25px;
+    font-weight: bold;
+    color : #4aaaa5;
+    border: 2px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-color:#dddddd;
+}
+
+.div3 {
+    width: 960px;
+    height: relative;
+    background: #ffffff;
+    margin-top: 25px;
+    margin-left: 100px;
+    padding: 15px 10px 15px 10px;
+    border: 2px;
+    border-color: #dddddd;
+    background-color:#ffffff;
+}
+
+.img1{
+    position: relative;
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding-left: 20px;
+    margin-right: 15px;
+}
+.hr2{
+    border: none;
+    height: 2px;
+    width: 95%;
+    padding-left: 0;
+    align-content: center;
+    background-color:#dddddd;
+    z-index: 1;
+}
+
+p{
+    z-index: 99;
+    background:#ffffff;
+    color: #777777;
+}
+
+.hr3{
+    position: relative;
+    height: 6px;
+    width: 100%;
+    padding-left: 0;
+    align-content: center;
+    color: #4aaaa5;
+    z-index: 1;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    color: #777777;
+    background-color: #666666;
+    padding: 20px;
+    text-align: center;
+  }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+
+
+
