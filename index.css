@@ -29,6 +29,7 @@ body{
 }
 .headerbox{
     padding: 20px 100px 20px 100px;
+    margin-left: 65px;
     width:960px;
 }
 h1 {
@@ -51,7 +52,7 @@ h1 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: rgb(207, 203, 203);
     text-align: center;
-    padding-right: 10%;
+    padding-right: 0;
     margin: 0;
     padding-top: 3%;
     }
@@ -69,7 +70,7 @@ a:hover{
     padding: 0;
     margin: 0;
     text-transform: uppercase; 
-    color: rgb(9, 7, 114);
+    color: #265754;
     text-decoration: none;
 }
 
@@ -78,7 +79,7 @@ a:active{
     padding: 0;
     margin: 0;
     text-transform: uppercase; 
-    color: rgb(158, 12, 12);
+    color: #4aaaa5;
     text-decoration: none;
 }
 
@@ -119,7 +120,7 @@ h2 {
     height: relative;
     background: #ffffff;
     margin-top: 25px;
-    margin-left: 100px;
+    margin-left: 150px;
     padding: 15px 10px 15px 10px;
     border: 2px;
     border-color: #dddddd;
