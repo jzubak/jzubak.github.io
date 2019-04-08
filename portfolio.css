@@ -2,47 +2,67 @@ table{
     border-collapse: collapse;
     box-align: center;
     margin: 0 auto;
+    display: block;
 }
 
-tr{
-    box-align: center;
-    height: 200px;
-    width: 200px;
-    margin: 0 auto;
-}
-
-td{
-    padding: 20px;
-    align-self: center;
-    margin: 0 auto;
+.box1{
+    float: left;
+    margin: 0;
 }
 
 .img2{
     position: relative;
-    height: 200px;
-    width: 200px;
+    height: auto;
+    max-width: 300px;
     text-align: center;
-    padding-left: 90px;
-    margin: 0 auto;
+    padding-left: 25px;
 }
 
 .caption {
     border: none;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
     position: relative;
-    width: 200px;
+    width: 100%;
+    max-width: 250px;
     height: 30px;
-    bottom: 40px;
-    right: 20px;
+    bottom: 50px;
     background: rgb(74,170,165);
     background: rgba(74,170,165, 0.75);
     color: #ffffff;
-    padding-left: 0px;
-    padding-right: 20px;
-    margin-left: 110px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: 40px;
  }
 
- caption:hover {
+.caption:hover {
     background: rgba(74,170,165, 0.5);
   }
+
+  .b:link, .b:visited{
+    width: 120px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase; 
+    color: rgb(31, 30, 30);
+    text-decoration: none;
+}
+.b:hover{
+    width: 120px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase; 
+    color: #265754;
+    text-decoration: none;
+}
+
+.b:active{
+    width: 120px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase; 
+    color: #4aaaa5;
+    text-decoration: none;
+}
