@@ -11,7 +11,7 @@ body{
 .bg{
     background-image: url('assets/images/opening.jpg');
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
     /* opacity: 0.65; */
     z-index: -1 ;
