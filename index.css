@@ -6,8 +6,15 @@ html{
 body{
     height: 100%;
     margin: 0;
-    background-color: black;
-    /* background-image: url('assets/images/gravel/gravel.png'); */
+    /* background-color: black; */
+}
+.bg{
+    background-image: url('assets/images/opening.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.65; */
+    z-index: -1 ;
 }
 
 .wrapper {
@@ -31,12 +38,14 @@ body{
     margin: 0;
     padding: 0;
     align-content: center;
+    opacity: .90;
 }
 .headerbox{
     padding: 0px 100px 0px 150px;
     margin-left: 0;
     width: 100%;
     background: rgb(39, 39, 39);
+    opacity: .90;
 }
 h1 {
     float: left;
@@ -142,6 +151,7 @@ h2 {
     border: 2px;
     border-color: #dddddd;
     background-color:#ffffff;
+    opacity: .95;
 }
 
 .img1{
