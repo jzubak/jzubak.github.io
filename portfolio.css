@@ -1,7 +1,9 @@
 .img2{
     border-radius: 30%;
     /* position: relative; */
+    max-height:250px;
     height: auto;
+    width: auto;
     max-width: 300px;
     /* align: center; */
     /* padding-left: 25px; */
